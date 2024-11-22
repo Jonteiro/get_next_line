@@ -6,7 +6,7 @@
 /*   By: jsilveir <jsilveir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 14:17:39 by jsilveir          #+#    #+#             */
-/*   Updated: 2024/11/21 15:27:16 by jsilveir         ###   ########.fr       */
+/*   Updated: 2024/11/22 16:55:08 by jsilveir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,8 @@
 # endif
 
 size_t	ft_strlen(const char *str);
-char	*ft_strjoin(char const *s1, char const *s2);
-char	*ft_strchr(const char *s, int c);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
-char	*ft_strdup(const char *s);
+char	*ft_strjoin(char *s1, char *s2);
+void	clean_buffer(char *buffer);
 char	*get_next_line(int fd);
 
 #endif
